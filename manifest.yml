@@ -5,7 +5,7 @@ declared-services:
     plan: '100'
     
 applications: #Reference http://docs.cloudfoundry.com/docs/using/deploying-apps/manifest.html
-- name: AlexNodeMySQLUploadExample #Application Name. Unique to the user's Space
+- name: AlexNodeMySQLUpload #Application Name. Unique to the user's Space
   memory: 256M #The maximum memory to allocate to each application instance
   instances: 1 #The number of instances of the application to start
   path: ./app/ #Path to the application to be pushed
